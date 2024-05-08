@@ -20,4 +20,28 @@ public Veiculo(int ano, String modelo, String cor, float km) {
 
 }
 
+//Metodos
+
+public String verificarManutencao(){
+
+    if(km <= 25000) {
+        return "Tudo ok";
+    } else if (this.km >= 25000 && this.km <= 75000){
+        return "Realizar Revisão parcial";
+    }
+
+
+    return "Realizar revisão completa";
+}
+
+public void mudarCor(String cor) {
+
+    this.cor = cor;
+}
+
+public String exibirCor(){
+
+    return this.cor;
+}
+
 }
