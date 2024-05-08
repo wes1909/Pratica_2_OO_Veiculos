@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public class Veiculo {
+public class Veiculo {
+
+    int ano;
+    String modelo;
+    String cor;
+    float km;
+
+
 }
